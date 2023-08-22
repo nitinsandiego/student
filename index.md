@@ -7,6 +7,10 @@ title: Student Blog
 
 Go to my [Github account](https://github.com/nitinsandiego) !!
 
+## About Me Freeform Picture
+Hi! This is Nitin Balaji. My interests are codings, shoes, especially Jordans, Formula 1, and running
+![Freeform About Me](images/FreeformAboutMe.png)
+
 ## Overview of Hacks, Study and Tangibles
 Blogging in GitHub pages is a way to learn and code at the same time. 
 
