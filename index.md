@@ -11,7 +11,7 @@ Go to my [Github account](https://github.com/nitinsandiego) !!
 Hi! This is Nitin Balaji. I am 15 years old. I am an aspiring coder and my dream job is to work as a software engineer. 
 
 ## About Me Freeform Picture
-My interests are codings, shoes, especially Jordans, Formula 1, and running
+My interests are coding, shoes, especially Jordans, Formula 1, and running.
 ![Freeform About Me](images/FreeformAboutMe.png)
 
 ## Overview of Hacks, Study and Tangibles
