@@ -8,7 +8,7 @@ title: Student Blog
 Go to my [Github account](https://github.com/nitinsandiego) !!
 
 ## About Me
-Hi! This is Nitin Balaji. I am 15 years old. I am an aspiring coder and my dream job is to work as a software engineer. 
+Hi! This is Nitin Balaji. I am 15 years old. I am an aspiring coder and my dream job is to work as a software engineer. I am really excited to be taking AP Computer Science Principles and also excited to take future software courses.
 
 ## About Me Freeform Picture
 My interests are coding, shoes, especially Jordans, Formula 1, and running.
