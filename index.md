@@ -19,8 +19,8 @@ Hi! This is Nitin Balaji. I am 15 years old. I am an aspiring coder and my dream
 ### My Favorite Youtube Channels
 [Carwow](https://www.youtube.com/@carwow)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TptzkkbC1vE?si=gL68VWEy3_62xeXS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-[Aarava](https://www.youtube.com/@aarava)
-[Matt212](https://www.youtube.com/@Matt212YT)
+[ThrottleHouse](https://www.youtube.com/@ThrottleHouse)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7xf35zoQcC4?si=aaTvi1d6a1b25pYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## About Me Freeform Picture
 My interests are coding, shoes, especially Jordans, Formula 1, and running.
