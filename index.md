@@ -3,7 +3,7 @@ layout: default
 title: Student Blog
 ---
 
-## Nitin Balaji's Page
+# Nitin Balaji's Page
 
 Go to my [Github account](https://github.com/nitinsandiego) !!
 
