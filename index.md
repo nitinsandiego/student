@@ -18,15 +18,7 @@ Hi! This is Nitin Balaji. I am 15 years old. I am an aspiring coder and my dream
 
 ### My Favorite Youtube Channels
 [Carwow](https://www.youtube.com/@carwow)
-<iframe
-    width="640"
-    height="480"
-    src="https://www.youtube.com/embed/TptzkkbC1vE"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TptzkkbC1vE?si=gL68VWEy3_62xeXS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 [Aarava](https://www.youtube.com/@aarava)
 [Matt212](https://www.youtube.com/@Matt212YT)
 
