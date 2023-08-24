@@ -16,9 +16,24 @@ Hi! This is Nitin Balaji. I am 15 years old. I am an aspiring coder and my dream
 ![DenverBroncos](images/DenverBroncos.png)
 ![Shoes](images/Shoes.png)
 
+### My Favorite Youtube Channels
+[Carwow](https://www.youtube.com/@carwow)
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/embed/TptzkkbC1vE"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+[Aarava](https://www.youtube.com/@aarava)
+[Matt212](https://www.youtube.com/@Matt212YT)
+
 ## About Me Freeform Picture
 My interests are coding, shoes, especially Jordans, Formula 1, and running.
 ![Freeform About Me](images/FreeformAboutMe.png)
+
 
 ## Overview of Hacks, Study and Tangibles
 Blogging in GitHub pages is a way to learn and code at the same time. 
