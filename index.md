@@ -61,6 +61,50 @@ My interests are coding, shoes, especially Jordans, Formula 1, and running.
   });
 </script>
 
+## Calculator
+
+<div id="calculator">
+  <input type="text" id="calc-display" placeholder="0" readonly>
+  <div id="buttons">
+    <button onclick="appendNumber('7')">7</button>
+    <button onclick="appendNumber('8')">8</button>
+    <button onclick="appendNumber('9')">9</button>
+    <button onclick="appendOperator('+')">+</button>
+    <!-- Add more buttons for other numbers and operators -->
+    <button onclick="calculate()">=</button>
+    <button onclick="clearDisplay()">C</button>
+  </div>
+</div>
+
+<script>
+  let displayValue = '';
+
+  function appendNumber(number) {
+    displayValue += number;
+    document.getElementById('calc-display').value = displayValue;
+  }
+
+  function appendOperator(operator) {
+    displayValue += operator;
+    document.getElementById('calc-display').value = displayValue;
+  }
+
+  function calculate() {
+    try {
+      displayValue = eval(displayValue);
+      document.getElementById('calc-display').value = displayValue;
+    } catch (error) {
+      document.getElementById('calc-display').value = 'Error';
+    }
+  }
+
+  function clearDisplay() {
+    displayValue = '';
+    document.getElementById('calc-display').value = displayValue;
+  }
+</script>
+
+
 ## Overview of Hacks, Study and Tangibles
 Blogging in GitHub pages is a way to learn and code at the same time. 
 
