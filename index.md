@@ -29,5 +29,5 @@ Blogging in GitHub pages is a way to learn and code at the same time.
 
 **Contact Info**
 - Email: nitinsandiego@gmail.com
-- Phone: 858-312-9834
+- Phone: (858)-312-9834
 - Discord: lewishamilton4463
