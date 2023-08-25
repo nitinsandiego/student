@@ -42,9 +42,6 @@ Hi! This is Nitin Balaji. I am 15 years old. I am an aspiring coder and my dream
 
 ![Monza](images/Italy_Circuit.png.avif)
 
-## My British Rap Playlist
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3tfzUad11N9MblRGwhJxOU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
 ## About Me Freeform Picture
 My interests are coding, shoes, especially Jordans, Formula 1, and running.
 ![Freeform About Me](images/FreeformAboutMe.png)
