@@ -31,9 +31,6 @@ Hi! This is Nitin Balaji. I am 15 years old. I am an aspiring coder and my dream
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ngLQfhJZ7Rs?si=TxXZYysPcccDNAqj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br>
 
-## My Spotify British Rap Playlist
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3tfzUad11N9MblRGwhJxOU?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
 ## My Favorite Race Tracks
 ### Silverstone
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.558050887211!2d-1.0172383234616553!3d52.073300571947534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48771c5823926c25%3A0x1142afb591c324a6!2sSilverstone%20Circuit!5e1!3m2!1sen!2sus!4v1692932285352!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
