@@ -1,6 +1,6 @@
 ---
 toc: true
-comments: true
+comments: false
 layout: post
 title: Number Guessing Game
 description: This is my number guessing game. This is part of my process of personalizing my Github page. 

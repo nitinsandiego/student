@@ -1,6 +1,6 @@
 ---
 toc: true
-comments: true
+comments: false
 layout: post
 title: VSCode, Python, Jupyter, ...
 description: Tools and equipment setup for tools used throughout this class.

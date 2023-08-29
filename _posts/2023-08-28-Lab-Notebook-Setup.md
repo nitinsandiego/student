@@ -1,6 +1,6 @@
 ---
 toc: true
-comments: true
+comments: false
 layout: post
 title: Lab Notebook Setup
 description: These are the instructions and plan for setting up lab notebook and for week 2.  

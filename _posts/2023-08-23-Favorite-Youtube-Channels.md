@@ -1,6 +1,6 @@
 ---
 toc: true
-comments: true
+comments: false
 layout: post
 title: My Favorite Youtube Channels
 description: These are my favorite youtube channels. This is part of my process of personalizing my Github page. 
