@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Lab Notebook Setup
 description: These are the instructions and plan for setting up lab notebook and for week 2.  
-type: hacks
+type: plans
 courses: {csp: {week: 2, categories: [4.A]}}
 categories: [C1.4]
 ---
