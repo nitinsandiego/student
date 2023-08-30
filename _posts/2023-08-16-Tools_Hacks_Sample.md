@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: post
-title: Tools Hacks Sample
+title: Tools Hacks
 description: Example hacks!!! This shows procedures performed by student, not the procedures for the entire class.  Modified or prunned for specific machine.
 courses: {csp: {week: 1}}
 type: hacks
