@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 comments: false
 layout: post
 title: Formula 1 Quiz
@@ -80,7 +80,6 @@ type: tangibles
       <label><input type="radio" name="q6" value="b"> 2014</label>
       <label><input type="radio" name="q6" value="c"> 2009</label>
     </div>
-    <!-- Add more questions here... -->
     <div id="submit-button">
       <button type="button" onclick="submitQuiz()">Submit Answers</button>
     </div>
