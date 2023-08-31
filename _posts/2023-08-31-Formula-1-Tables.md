@@ -56,5 +56,10 @@ type: hacks
             <td>Daniel Ricciardo</td>
             <td>Yuki Tsunoda</td>
         </tr>
+        <tr>
+            <td>Haas</td>
+            <td>Kevin Magnussen</td>
+            <td>Nico Hülkenberg</td>
+        </tr>
     </tbody>
 </table>
