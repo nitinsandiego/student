@@ -61,5 +61,10 @@ type: hacks
             <td>Kevin Magnussen</td>
             <td>Nico Hülkenberg</td>
         </tr>
+        <tr>
+            <td>Aston Martin Racing</td>
+            <td>Fernando Alonso</td>
+            <td>Lance Stroll</td>
+        </tr>
     </tbody>
 </table>
