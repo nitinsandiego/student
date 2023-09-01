@@ -4,6 +4,7 @@ comments: false
 layout: post
 title: Formula 1 Quiz
 courses: {csp: {week: 2}}
+description: This is my Formula 1 Quiz. 
 type: tangibles
 ---
 
