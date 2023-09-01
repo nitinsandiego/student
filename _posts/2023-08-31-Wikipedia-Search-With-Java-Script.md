@@ -2,7 +2,7 @@
 toc: false
 comments: false
 layout: post
-title: Wikipedia Search
+title: Wikipedia Search with Javascript
 description: Search anything you want, and this will provide a summary based on the wikipedia information on this subject.
 courses: {csp: {week: 2}}
 type: tangibles
