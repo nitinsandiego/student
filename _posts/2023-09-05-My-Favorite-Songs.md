@@ -10,8 +10,6 @@ type: tangibles
 
 <h2>Listen to my favorite songs on Spotify</h2>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3LtpKP5abr2qqjunvjlX5i?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<br>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2FDTHlrBguDzQkp7PVj16Q?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 <br>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4vzJrkfHbCGaodPA5RY5BV?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
