@@ -2,7 +2,7 @@
 toc: false
 comments: false
 layout: post
-title: Image of Request
+title: Image on Request
 description: Input the image you want to see and my code will give the image. 
 courses: {csp: {week: 3}}
 type: tangibles
