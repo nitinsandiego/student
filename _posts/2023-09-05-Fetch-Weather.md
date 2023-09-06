@@ -62,7 +62,7 @@ type: tangibles
                 weatherContainer.innerHTML = `
                     <br>
                     <h2>Weather in ${data.name}, ${data.sys.country}</h2>
-                    <p>Temperature: ${(data.main.temp - 273.15).toFixed(2)}°C</p>
+                    <p>Temperature: ${(((data.main.temp - 273.15)*(9/5))+32).toFixed(2)}°F</p>
                     <p>Description: ${data.weather[0].description}</p>
                     <p>Humidity: ${data.main.humidity}%</p>
                     <p>Wind Speed: ${data.wind.speed} m/s</p>
