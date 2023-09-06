@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: My Favorite Songs
 description: These are my favorite songs on spotify
-courses: {csp: {week: 1}}
+courses: {csp: {week: 3}}
 type: tangibles
 ---
 
