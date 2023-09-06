@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Formula 1 Teams Table
 description: This my table of Formula 1 Teams.
-courses: {csp: {week: 2}}
+courses: {csp: {week: 3}}
 type: hacks
 ---
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for teams..">

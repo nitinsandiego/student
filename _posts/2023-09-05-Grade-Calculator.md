@@ -5,7 +5,7 @@ layout: post
 title: Grade Calculator
 description: Add your assignment scores and my grade calculator will give you your grade
 courses: {csp: {week: 3}}
-type: tangibles
+type: hacks
 ---
 
 <!-- Heading -->
