@@ -12,7 +12,6 @@ type: tangibles
     <meta charset="utf-8">
 </head>
 <body>
-    <h1>Music Recommendation</h1>
     <!-- User input field -->
     <label for="userInput">Enter your favorite genre or artist:</label>
     <input type="text" id="userInput">
