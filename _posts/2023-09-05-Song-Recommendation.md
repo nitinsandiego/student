@@ -22,17 +22,30 @@ type: tangibles
         <!-- Recommendations will be displayed here -->
     </div>
     <script>
-        const apiKey = 'a5d1284fa777bdb75371d65b7cee89adY';
+        const apiKey = 'a5d1284fa777bdb75371d65b7cee89ad';
         function getRecommendations() {
             const userInput = document.getElementById('userInput').value;
             const url = `https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=${userInput}&api_key=${apiKey}&format=json`;
             fetch(url)
-                .then(response => response.json())
-                .then(data => {
-                    const recommendations = data.toptracks.track;
-                    displayRecommendations(recommendations);
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();
                 })
-                .catch(error => console.error('Error fetching data:', error));
+                .then(data => {
+                    if (data && data.toptracks && Array.isArray(data.toptracks.track)) {
+                        const recommendations = data.toptracks.track;
+                        displayRecommendations(recommendations);
+                    } else {
+                        console.error('Invalid API response:', data);
+                        alert('Invalid API response. Please try again later.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    alert('Error fetching data. Please try again later.');
+                });
         }
         function displayRecommendations(recommendations) {
             const recommendationsContainer = document.getElementById('recommendations');
