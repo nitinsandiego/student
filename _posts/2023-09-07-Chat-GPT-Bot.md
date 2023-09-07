@@ -26,7 +26,7 @@ type: tangibles
     </div>
     <script>
         async function chatWithGPT(prompt) {
-            const API_KEY = "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"; /* your api key here */
+            const API_KEY = "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"; /* your api key here */
             const headers = {
                 "authorization": `Bearer ${API_KEY}`,
                 "content-type": "application/json"
