@@ -9,6 +9,19 @@ type: hacks
 ---
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for teams..">
 
+<style>
+    tr:hover {background-color: #3ba3a0;}
+
+    table, th, td {
+        border: 1px solid;
+    }
+
+    th {
+        background-color: #1a70c7;
+        color: white;
+    }
+</style>
+
 <table id="myTable" class="table">
     <thead>
         <tr>
