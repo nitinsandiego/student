@@ -2,15 +2,14 @@
 toc: false
 comments: false
 layout: post
-title: Song Recommendation
-description: This is my song recommendation application
+title: Music Recommendation
+description: This is my music recommendation application
 courses: {csp: {week: 3}}
 type: tangibles
 ---
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Music Recommendation</title>
 </head>
 <body>
     <h1>Music Recommendation</h1>
