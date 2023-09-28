@@ -46,3 +46,4 @@ courses: {'csp': {'week': 5}}
 - Challenge Segment: Cost Calculator
 - Goal: Error-proof the code and implement a user input test.
 - What to Do: Develop tests for user inputs and expected outputs. Gradually implement features to pass these tests. Iterate until the program functions as expected.
+
