@@ -13,5 +13,3 @@ type: tangibles
 * Learned how to use APIs and Postman
 * Continued working on Passion Project: Cobmined Frontend Elements and polished them; began work on backend with AWS
 
-## Group Stuff
-* Prepped and gave Team Teach on our topic
