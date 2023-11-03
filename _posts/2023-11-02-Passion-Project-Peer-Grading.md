@@ -2,8 +2,8 @@
 toc: true
 comments: true
 layout: post
-title: Trimester 1 Reflection
-description: Trimester 1 Reflection
+title: Passion Project Peer Grading
+description: Passion Project Peer Grading
 courses: { csp: {week: 10} }
 type: hacks
 ---
