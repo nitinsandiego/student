@@ -10,18 +10,11 @@ type: tangibles
 
 # College Board Test Corrections
 
-## Question 41
+## Question 45
 
-I chose option C: I and III
+I chose option B: I and IV
 
-The correct answer was D: II and III
+The correct answer was D: I and III
 
-III stated that the function would first sort, then keep palindromes, then shorten which was correct. However, option I said that it was going to do the shorten step before the keep palindromes step which is incorrect.
+III stated that the robot moved 4 left and 5 straight. I also stated robot moved 9 blocks altogetger. I misintepreted I and IV as the correct procedures and thought this was the correct answer.
 
-## Question 63
-
-Line 4 should be removed because if the count is set to 0 inside the loop then the function will not give an accurate number of prime numbers in the list.
-
-I chose line 7 which was incorrect.
-
-Line 9 should also be removed because you should only increase the count of prime numbers in a list if the number is prime. If you increase it outside then it doesn't matter if the number is prime or not.
