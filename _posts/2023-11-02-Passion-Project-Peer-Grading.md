@@ -4,7 +4,7 @@ comments: true
 layout: post
 title: Passion Project Peer Grading
 description: Passion Project Peer Grading
-courses: { csp: {week: 11} }
+courses: { csp: {week: 12} }
 type: hacks
 ---
 
