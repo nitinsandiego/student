@@ -1,6 +1,6 @@
 ---
 hide: True
-layout: notebook
+layout: post
 title: Binary Song Converter
 type: hacks
 courses: {'csp': {'week': 4}}
