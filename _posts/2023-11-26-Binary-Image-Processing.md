@@ -1,6 +1,6 @@
 ---
 hide: True
-layout: notebook
+layout: post
 title: Binary Image Processing
 type: tangibles
 courses: {'csp': {'week': 13}}
