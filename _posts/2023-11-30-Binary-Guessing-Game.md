@@ -1,6 +1,6 @@
 ---
 hide: True
-layout: notebook
+layout: post
 title: Binary Game
 type: tangibles
 courses: {'csp': {'week': 14}}
