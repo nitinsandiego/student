@@ -1,8 +1,8 @@
 ---
 hide: True
 layout: post
-title: Binary Game
-type: tangibles
+title: Binary Number Guessing Game
+type: hacks
 courses: {'csp': {'week': 14}}
 ---
 
@@ -10,24 +10,47 @@ courses: {'csp': {'week': 14}}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Binary Guessing Game</title>
+    <title>Binary Number Guessing Game</title>
 </head>
 <body>
-    <h1>Welcome to the Binary Guessing Game!</h1>
+    <h1>Welcome to the Binary Number Guessing Game!</h1>
     <div>
-        <!-- Updated input field with pattern and maxlength -->
+        <p>Guess the binary representation of the number between 0 and 255:</p>
+        <p id="targetNumber"></p>
         <input type="text" id="userGuess" placeholder="Enter your binary guess" pattern="^[0-1]{1,8}$" maxlength="8"/>
         <button onclick="makeAGuess()">Guess</button>
+        <br>
+        <button onclick="restartGame()">Play Again</button> <!-- New button for restarting the game -->
     </div>
-    <div44 id="output"></div44>
+    <div23 id="output"></div23>
     <script>
         var minValue = 0;
         var maxValue = 255;
-        var secretBinary = generateRandomBinary(minValue, maxValue);
+        var secretDecimal = generateRandomDecimal(minValue, maxValue);
+        var secretBinary = decimalToBinary(secretDecimal);
         var attempts = 0;
         var outputDiv = document.getElementById('output');
-        function generateRandomBinary(minValue, maxValue) {
-            return (Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue).toString(2);
+        var targetNumberDiv = document.getElementById('targetNumber');
+        function generateRandomDecimal(minValue, maxValue) {
+            return Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue;
+        }
+        function decimalToBinary(decimal) {
+            return decimal.toString(2);
+        }
+        function displayTargetNumber() {
+            targetNumberDiv.innerText = `Number: ${secretDecimal}`;
+        }
+        function restartGame() {
+        // Reset variables
+        minValue = 0;
+        maxValue = 255;
+        secretDecimal = generateRandomDecimal(minValue, maxValue);
+        secretBinary = decimalToBinary(secretDecimal);
+        attempts = 0;
+        // Update display
+        displayTargetNumber();
+        outputDiv.innerHTML = "";
+        document.getElementById('userGuess').value = ""; // Clear the input field
         }
         function makeAGuess() {
             var playerGuess = document.getElementById('userGuess').value;
@@ -38,10 +61,10 @@ courses: {'csp': {'week': 14}}
             }
             try {
                 var guessDecimal = parseInt(playerGuess, 2);
-                if (playerGuess === secretBinary) {
+                if (guessDecimal === secretDecimal) {
                     outputDiv.innerHTML = `Congratulations! You guessed the correct binary number ${secretBinary} (decimal: ${guessDecimal}) in ${attempts} attempts.`;
                 } else {
-                    if (playerGuess < secretBinary) {
+                    if (guessDecimal < secretDecimal) {
                         outputDiv.innerHTML = `Too low! Your guess ${playerGuess} in decimal is ${guessDecimal}. Try again.`;
                         minValue = guessDecimal + 1;
                     } else {
@@ -54,6 +77,8 @@ courses: {'csp': {'week': 14}}
                 outputDiv.innerHTML = "Invalid input. Please enter a valid binary number.";
             }
         }
+        // Display the target number when the page loads
+        window.onload = displayTargetNumber;
     </script>
 </body>
 </html>
