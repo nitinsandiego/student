@@ -2,7 +2,7 @@
 hide: True
 layout: post
 title: Binary Puzzle
-type: tangibles
+type: hacks
 courses: {'csp': {'week': 14}}
 ---
 
@@ -10,7 +10,6 @@ courses: {'csp': {'week': 14}}
 <head>
     <title>Binary Puzzle</title>
     <style>
-        /* Add your CSS styles here */
     </style>
 </head>
 <body>
