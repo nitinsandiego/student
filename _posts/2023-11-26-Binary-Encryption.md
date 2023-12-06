@@ -2,8 +2,8 @@
 hide: True
 layout: post
 title: Binary Encryption
-type: hacks
-courses: {'csp': {'week': 14}}
+type: tangibles
+courses: {'csp': {'week': 13}}
 ---
 
 <html>
