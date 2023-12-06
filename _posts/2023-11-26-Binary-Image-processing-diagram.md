@@ -3,7 +3,7 @@ hide: True
 layout: post
 title: Binary Image Processing Diagram
 type: plans
-courses: {'csp': {'week': 13}}
+courses: {'csp': {'week': 14}}
 ---
 
 <html lang="en">
