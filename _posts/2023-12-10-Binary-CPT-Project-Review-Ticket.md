@@ -6,7 +6,7 @@ layout: notebook
 title: Binary CPT Project Review Ticket
 description: Binary CPT Project Review Ticket
 type: tangibles
-courses: {'csp': {'week': 16}}
+courses: {'csp': {'week': 15}}
 ---
 # Utterance Grading is at the bottom of the page
 
