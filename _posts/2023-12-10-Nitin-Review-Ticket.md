@@ -2,7 +2,7 @@
 hide: False
 toc: False
 comments: True
-layout: notebook
+layout: post
 title: Nitin Balaji Review Ticket
 description: Nitin Balaji Review Ticket
 type: tangibles
