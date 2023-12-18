@@ -2,7 +2,7 @@
 hide: False
 toc: False
 comments: True
-layout: notebook
+layout: post
 title: Binary CPT Project Review Ticket
 description: Binary CPT Project Review Ticket
 type: tangibles
