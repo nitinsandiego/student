@@ -10,7 +10,7 @@ courses: {'csp': {'week': 16}}
 ---
 
 <video  height="500" controls>
-    <source src="/binarycptproject/videos/BinaryImageProcessing.mp4" type="video/mp4">
+    <source src="/student/videos/BinaryImageProcessing.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
