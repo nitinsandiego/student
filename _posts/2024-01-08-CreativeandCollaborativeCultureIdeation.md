@@ -22,4 +22,4 @@ I'd track our success by creating a plan for our ideas and when we aim to finish
 
 [Akshay Nagesh's Comment](https://github.com/nighthawkcoders/teacher_portfolio/issues/78#issuecomment-1881607641)
 
-I really like your idea for a Premier League website that exhibits the top and latest news for tournaments and seasonal leagues. This is a very helpful and fund idea for the Premier League and football fans. I can see this idea will use many different programming concepts that are important in this technology-based society.
+I really like your idea for a Premier League website that exhibits the top and latest news for tournaments and seasonal leagues. This is a very helpful and fund idea for the Premier League and football fans. I can see this idea will use many different programming concepts that are important in this technology-based society.s
