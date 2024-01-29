@@ -80,7 +80,7 @@ echo "=== !!!Start a new Terminal!!! ==="
 ```
 
 ### Preview
-- The result of these step is server running on: http://0.0.0.0:4100/teacher/.  Regeneration messages will run in terminal on any save.  Press the Enter or Return key in the terminal at any time to enter commands.
+- The result of these step is server running on: http://127.0.0.1:4100/teacher/.  Regeneration messages will run in terminal on any save.  Press the Enter or Return key in the terminal at any time to enter commands.
 
 - Complete installation
 ```bash
@@ -96,7 +96,7 @@ bundle install
 
     - Terminal output of shows server address. Cmd or Ctl click http location to open preview server in browser. Example Server address message... 
     ```
-    Server address: http://0.0.0.0:4100/teacher/
+    Server address: http://127.0.0.1:4100/teacher/
     ```
 
     - Save on ipynb or md activiates "regeneration". Refresh browser to see updates. Example terminal message...
