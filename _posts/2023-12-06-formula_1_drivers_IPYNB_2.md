@@ -1,6 +1,6 @@
 ---
 comments: True
-layout: notebook
+layout: post
 hide: True
 title: Formula 1 Drivers
 description: Formula 1 Drivers Contest
