@@ -2,7 +2,6 @@
 comments: True
 layout: post
 title: Edit User
-description: cooking
 courses: { csp: {week: 20} }
 type: hacks
 permalink: /lmc-editUser
