@@ -15,8 +15,11 @@ database, with database schema change
 - Show db.Column changes you have made to model/python file in Visual Studio Code![Alt text](</student/images/Screenshot 2024-01-31 at 11.08.19 AM.png>)
 - Show initialization data code in VSCode
 ![Alt text](</student/images/Screenshot 2024-01-31 at 11.09.05 AM.png>)
+![Alt text](</student/images/Screenshot 2024-01-31 at 11.10.04 AM.png>)
 - Demo delete database and run ./migrate.sh
+![Alt text](</student/images/Screenshot 2024-01-31 at 11.11.34 AM.png>)
 - Demo corresponding schema change in SQLite3
+![Alt text](</student/images/Screenshot 2024-01-31 at 11.11.34 AM.png>)
 - Demo initialization data captured in Column in SQLite3
 postman with /authentication screen
 
