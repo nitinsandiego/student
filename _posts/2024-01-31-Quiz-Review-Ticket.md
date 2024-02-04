@@ -3,7 +3,6 @@ toc: true
 comments: false
 layout: post
 title: Quiz Review Ticket
-description: Week 20 Plans
 courses: { csp: {week: 20} }
 type: tangibles
 ---
