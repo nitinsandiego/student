@@ -28,13 +28,12 @@ jupyter notebook or web page that shows redirect or 403 error as result of signu
     ![alt text](</student/images/Screenshot 2024-02-04 at 10.29.00 PM.png>)
     - Show code that redirects to page on success
     ![alt text](</student/images/Screenshot 2024-02-04 at 10.43.16 PM.png>)
+    - Show code that shows implementation of roles
     - Show code that captures error handling on 403
     ![alt text](</student/images/Screenshot 2024-02-04 at 10.45.18 PM.png>)
 - In Browser/Jupyter demo …
     - Demo Login success redirecting to table/data page
-    <source src="" type="video/mp4">
-    <video  height="300" controls>
-    <source src="/student/videos/Screen Recording 2024-02-04 at 10.51.42 PM.mp44" type="video/mp4">Your browser does not support the video tag.</video>
+    <video  height="500" controls src="/student/videos/Screen Recording 2024-02-04 at 10.51.42 PM.mp4" title="Title"></video>
     - Show in split screen, login success with cookie on redirected page
     ![alt text](</student/images/Screenshot 2024-02-04 at 10.36.36 PM.png>)
     - Demo Login success to a page that requires advanced role
