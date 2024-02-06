@@ -33,7 +33,7 @@ jupyter notebook or web page that shows redirect or 403 error as result of signu
     ![alt text](</student/images/Screenshot 2024-02-04 at 10.45.18 PM.png>)
 - In Browser/Jupyter demo …
     - Demo Login success redirecting to table/data page
-    <video  height="500" controls src="/student/videos/Screen Recording 2024-02-04 at 10.51.42 PM.mp4" title="Title"></video>
+    <video  height="400" controls src="/student/videos/Screen Recording 2024-02-04 at 10.51.42 PM.mp4" title="Title"></video>
     - Show in split screen, login success with cookie on redirected page
     ![alt text](</student/images/Screenshot 2024-02-04 at 10.36.36 PM.png>)
     - Demo Login success to a page that requires advanced role
@@ -65,8 +65,22 @@ jupyter notebook that shows CRUD operation on page that requires authentication,
         ![alt text](</student/images/Screenshot 2024-02-05 at 7.08.49 PM.png>)
 - In Browser/Jupyter demo …
     - Demo Fetch Action for Create/Post
+    <video height="400" controls src="/student/videos/Screen Recording 2024-02-05 at 7.23.40 PM.mp4" title="Title"></video>
     - Demo Fetch Action for Update/Put
+    <video height="400" controls src="/student/videos/Screen Recording 2024-02-05 at 7.28.29 PM.mp4" title="Title"></video>
     - Demo Fetch Action for Delete
+    <video height="400" controls src="/student/videos/Screen Recording 2024-02-05 at 7.33.58 PM.mp4" title="Title"></video>
 - In SQLite demo …
     - Demo Data Before each Fetch Action
+        - Post
+        ![alt text](</student/images/Screenshot 2024-02-05 at 7.44.45 PM.png>)
+        - Put
+
+        - Delete
+
     - Demo Data After each Fetch Action
+        - Post
+        ![alt text](</student/images/Screenshot 2024-02-05 at 7.45.27 PM.png>)
+        - Put
+
+        - Delete
