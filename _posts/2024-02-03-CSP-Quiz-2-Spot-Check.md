@@ -29,6 +29,7 @@ jupyter notebook or web page that shows redirect or 403 error as result of signu
     - Show code that redirects to page on success
     ![alt text](</student/images/Screenshot 2024-02-04 at 10.43.16 PM.png>)
     - Show code that shows implementation of roles
+    ![alt text](</student/images/Screenshot 2024-02-06 at 6.59.38 AM.png>)
     - Show code that captures error handling on 403
     ![alt text](</student/images/Screenshot 2024-02-04 at 10.45.18 PM.png>)
 - In Browser/Jupyter demo …
