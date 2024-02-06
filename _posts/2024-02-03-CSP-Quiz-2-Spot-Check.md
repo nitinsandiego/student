@@ -75,12 +75,13 @@ jupyter notebook that shows CRUD operation on page that requires authentication,
         - Post
         ![alt text](</student/images/Screenshot 2024-02-05 at 7.44.45 PM.png>)
         - Put
-
+        ![alt text](</student/images/Screenshot 2024-02-05 at 7.45.27 PM.png>)
         - Delete
-
+        ![alt text](</student/images/Screenshot 2024-02-05 at 7.49.33 PM.png>)
     - Demo Data After each Fetch Action
         - Post
         ![alt text](</student/images/Screenshot 2024-02-05 at 7.45.27 PM.png>)
         - Put
-
+        ![alt text](</student/images/Screenshot 2024-02-05 at 7.49.33 PM.png>)
         - Delete
+        ![alt text](</student/images/Screenshot 2024-02-05 at 7.50.33 PM.png>)
