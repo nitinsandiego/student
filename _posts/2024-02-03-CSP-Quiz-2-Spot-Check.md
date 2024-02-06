@@ -38,7 +38,9 @@ jupyter notebook or web page that shows redirect or 403 error as result of signu
     - Show in split screen, login success with cookie on redirected page
     ![alt text](</student/images/Screenshot 2024-02-04 at 10.36.36 PM.png>)
     - Demo Login success to a page that requires advanced role
+    <video height="400" controls src="/student/videos/Screen Recording 2024-02-06 at 7.03.37 AM.mp4" title="Title"></video>
     - Demo Login failure related in insufficient role
+    <video height="400" controls src="/student/videos/Screen Recording 2024-02-06 at 7.09.03 AM.mp4" title="Title"></video>
 
 jupyter notebook that shows CRUD operation on page that requires authentication, or this can include signup without authentication
 
