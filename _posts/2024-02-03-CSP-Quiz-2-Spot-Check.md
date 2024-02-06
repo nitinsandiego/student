@@ -43,8 +43,26 @@ jupyter notebook that shows CRUD operation on page that requires authentication,
 
 - Show in VSCode HTML and JavaScript to support Post, Put or Delete method
     - Show JavaScript that performs Fetch
+        - Post
+        ![alt text](</student/images/Screenshot 2024-02-05 at 6.13.06 PM.png>)
+        - Put
+        ![alt text](</student/images/Screenshot 2024-02-05 at 6.13.51 PM.png>)
+        - Delete
+        ![alt text](</student/images/Screenshot 2024-02-05 at 6.14.36 PM.png>)
     - Show JavaScript code that handles Response and formats data
+        - Post
+        ![alt text](</student/images/Screenshot 2024-02-05 at 6.16.53 PM.png>)
+        - Put
+        ![alt text](</student/images/Screenshot 2024-02-05 at 6.17.52 PM.png>)
+        - Delete
+        ![alt text](</student/images/Screenshot 2024-02-05 at 6.18.33 PM.png>)
     - Show code that supports HTML, HTML generation, and Style
+        - Post
+        ![alt text](</student/images/Screenshot 2024-02-05 at 7.07.27 PM.png>)
+        - Put
+        ![alt text](</student/images/Screenshot 2024-02-05 at 7.08.07 PM.png>)
+        - Delete
+        ![alt text](</student/images/Screenshot 2024-02-05 at 7.08.49 PM.png>)
 - In Browser/Jupyter demo …
     - Demo Fetch Action for Create/Post
     - Demo Fetch Action for Update/Put
