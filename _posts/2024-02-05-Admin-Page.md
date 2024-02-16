@@ -2,7 +2,7 @@
 comments: false
 layout: post
 title: Admin Page
-courses: { csp: {week: 21} }
+courses: { csp: {week: 22} }
 permalink: /adminpage
 type: hacks
 ---
