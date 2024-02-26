@@ -9,9 +9,6 @@ type: hacks
 
 # AI Real Estate Bot
 
-## CPT Video
-<video height="400" controls src="/student/videos/RealEstateTri2Final.mp4" title="Title"></video>
-
 ## Correlation to CPT
 ### User Input
 - The user can input their prompt to the bot and click a button to submit the prompt.
@@ -110,3 +107,134 @@ def initHouses():
                 print(f"Error adding house at index {index}: {str(e_inner)}")
 ```
 
+### One procedure that contributes to the program’s intended purpose
+- This procedure is used to get the user's input and return the bot's response. This is the main procedure that allows the bot to function.
+
+```python
+def get_openai_answer(user_input):
+        encrypted_app_token = 'gAAAAABlOLQoLplaL2-lfD1T4VkBXnkKxq1XK_VlVHiEm7MaftNJmZ4f-7rQlUws-NIMHjpWOMtevkwB5NX7f4kqknvrVtwH3ccAsOHB_Yg9dzksRxh5yVuuIXRD3hov8yU6BSXwd-HLTnBRLX5ARDOqzxJoK6M15A=='
+
+        basedir = os.path.abspath(os.path.dirname(__file__))
+
+        # Specify the file path
+        file_path = basedir + "/../static/data/RealEsateDataforOpenAI.csv"
+
+        dataset = pd.read_csv(file_path, header=0).to_string()
+
+        houses = db.session.query(House).all()
+        dataset = []
+        for house in houses:
+            dataset.append(house.all_details())
+        jsondata = jsonify(dataset)
+
+        crypto_key = os.getenv("CRYPTO_KEY")
+        if crypto_key is None:
+            raise ValueError("CRYPTO_KEY environment variable is not set.")
+        
+        cipher_suite = Fernet(crypto_key)
+        api_key = cipher_suite.decrypt(encrypted_app_token).decode()
+        os.environ["OPENAI_API_KEY"] = api_key
+        
+        summary_template = """
+            {user_input}, answer using this: {jsondata} If unable able to answer, use your own information.
+        """
+
+        summary_prompt_template = PromptTemplate(
+            input_variables=["user_input", "dataset"], template=summary_template
+        )
+
+        llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo-16k", api_key=api_key)
+
+        chain = LLMChain(llm=llm, prompt=summary_prompt_template)
+        response = chain.run(user_input=user_input, dataset=dataset)
+        
+        return response
+```
+
+### An algorithm that includes sequencing, selection, and iteration
+- The loop or iteration extracts all information on all properties, which is vital for the bot to properly answer prompts. The sequencing is important in checking if the user has the access code to the bot. If not an error will be thrown
+
+```python
+houses = db.session.query(House).all()
+        dataset = []
+        for house in houses:
+            dataset.append(house.all_details())
+        jsondata = jsonify(dataset)
+
+        crypto_key = os.getenv("CRYPTO_KEY")
+        if crypto_key is None:
+            raise ValueError("CRYPTO_KEY environment variable is not set.")
+```
+
+### Calls to your student-developed procedure
+- This calls the AI bot api to get the response to the user's prompt.
+
+```javascript
+document.addEventListener("DOMContentLoaded", function () {
+        const conversation = document.getElementById("conversation");
+        const inputField = document.getElementById("input-field");
+        const submitButton = document.getElementById("submit-button");
+        submitButton.addEventListener("click", function (e) {
+            e.preventDefault();
+            const userQuestion = inputField.value.trim();
+            if (!userQuestion) return; // Don't send empty questions
+            const accessCode = prompt("Please enter your access code:");
+            if (!accessCode) return; // Don't proceed without access code
+            // Display the user's prompt in a different style and position
+            const userMessage = document.createElement("div");
+            userMessage.classList.add("user-message"); // New class for user messages
+            const userText = document.createElement("div");
+            userText.classList.add("user-text"); // New class for user text
+            userText.textContent = userQuestion;
+            userMessage.appendChild(userText);
+            conversation.appendChild(userMessage);
+            // Send the user's question to the API
+            const url = uri + '/api/house/openai';
+            fetch(url + `?question=${encodeURIComponent(userQuestion)}&code=${accessCode}`, {method: 'GET', mode: 'cors'}).then((response) => response.json()).then((data) => {
+                    // Display the chatbot's response
+                    const chatbotMessage = document.createElement("div");
+                    chatbotMessage.classList.add("chatbot-message");
+                    const chatbotText = document.createElement("div");
+                    chatbotText.classList.add("chatbot-text");
+                    chatbotText.textContent = data;
+                    chatbotMessage.appendChild(chatbotText);
+                    conversation.appendChild(chatbotMessage);
+                    conversation.scrollTop = conversation.scrollHeight;
+                    inputField.value = "";
+                    inputField.focus();
+                })
+                .catch((error) => {
+                    console.error("Error fetching data from the API:", error);
+                });
+        });
+    });
+```
+
+### Instructions for output
+- The AI bot ouputs the answer to the user's prompt and displays it in the chat window.
+
+```javascript
+fetch(url + `?question=${encodeURIComponent(userQuestion)}&code=${accessCode}`, {method: 'GET', mode: 'cors'}).then((response) => response.json()).then((data) => {
+    // Display the chatbot's response
+    const chatbotMessage = document.createElement("div");
+    chatbotMessage.classList.add("chatbot-message");
+    const chatbotText = document.createElement("div");
+    chatbotText.classList.add("chatbot-text");
+    chatbotText.textContent = data;
+    chatbotMessage.appendChild(chatbotText);
+    conversation.appendChild(chatbotMessage);
+    conversation.scrollTop = conversation.scrollHeight;
+    inputField.value = "";
+    inputField.focus();
+})
+.catch((error) => {
+    console.error("Error fetching data from the API:", error);
+});
+```
+
+## CPT Video
+<video height="400" controls src="/student/videos/RealEstateTri2Final.mp4" title="Title"></video>
+- Contains examples of user interactions with the AI bot
+- Contains examples of the bot's responses to user prompts
+- Has no voice and only captions
+- Meets length at 1 minute exactly
