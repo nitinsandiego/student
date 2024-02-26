@@ -18,3 +18,5 @@ This is a page where users once viewing all details about a specific property ca
 # Google Maps Integration
 This is a feature that allows users to view the location of the property on a map. This will help them to understand the location of the property and the surrounding area.
 
+# AI Real Estate Bot
+This is a feature that allows users to ask any questions about Southern California real estate. The bot will answer the questions using a combination of our own deal estate data and OpenAI's own information to  provide the user with the information they need.
