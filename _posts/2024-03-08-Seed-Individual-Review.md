@@ -14,4 +14,3 @@ type: hacks
 <br>
 
 ![alt text](<../images/Screenshot 2024-03-08 at 8.47.33 AM.png>)
-
