@@ -1,8 +1,8 @@
 ---
 title: Depoloyment Quiz
 layout: post
-type: tangibles
-courses: { csp: { week: 27 } }
+type: hacks
+courses: { csp: { week: 28 } }
 ---
 
 # Deployment Quiz
