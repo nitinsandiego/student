@@ -4,7 +4,7 @@ comments: true
 layout: post
 title: 2023 Written Response Practice Exam 1 More Questions
 courses: { csp: {week: 31} }
-type: hacks
+type: tangibles
 ---
 
 A. In the provided code snippet, the iteration statement that loops through each house fetched from the database will execute at least once if the query `db.session.query(House).all()` returns one or more entries. This means that the list `houses` needs to contain at least one `House` object for the loop to begin its execution. During the loop, each house in the list is processed one by one, where `house.all_details()` is called to append the details of each house into a dataset list. If the query results in no houses, the loop will not execute at all, highlighting that the presence of at least one house is essential for the loop's execution.
