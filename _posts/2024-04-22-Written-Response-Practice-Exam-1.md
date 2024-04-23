@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: post
-title: 2023 Written Response Practice Exam 1 More-Questions
+title: 2023 Written Response Practice Exam 1
 courses: { csp: {week: 31} }
 type: hacks
 ---
