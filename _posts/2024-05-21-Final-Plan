@@ -52,3 +52,4 @@ type: tangibles
   - Using Docker to package the application.
   - Hosting the website on a cloud service like AWS, Azure, or Heroku.
   - Setting up a system to make updates easy and allow multiple developers to work together smoothly.
+  
